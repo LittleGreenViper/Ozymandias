@@ -25,3 +25,16 @@ let ofst = 5
 let incArInt = [1, 2, 3, 4, 5].map { $0 + ofst }
 
 let valAr = incArInt
+
+let integerOffset: Int = 5
+
+let currentValuesIntegerArray: [Int] = [1, 2, 3, 4, 5]
+
+var workingArray: [Int] = []
+
+for value in currentValuesIntegerArray {
+    let tempValue: Int = value + integerOffset
+    workingArray.append(tempValue)
+}
+
+let newIntegerArray: [Int] = workingArray
