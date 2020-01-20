@@ -51,3 +51,6 @@ let addOffsetFunction = {(currentValue) in
 }
 
 textLineIndexes = textLineIndexes.map(addOffsetFunction)
+
+// We use the Array.map() function to add the offset, as it's the most effective Swift procedure.
+textLineIndexes = textLineIndexes.map { $0 + insertLineCount }
