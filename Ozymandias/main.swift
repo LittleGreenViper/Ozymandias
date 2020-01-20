@@ -55,6 +55,11 @@ textLineIndexes = textLineIndexes.map(addOffsetFunction)
 // We use the Array.map() function to add the offset, as it's the most effective Swift procedure.
 textLineIndexes = textLineIndexes.map { $0 + insertLineCount }
 
+/* #################################################### */
+/**
+ This function will append one Array of String to another, then
+ will return the entire composite Array as a single String, joined by linefeeds.
+ */
 func appendTextLines(_ inNewTextLineArray: [String], to: [String]) -> String {
     return  (to + inNewTextLineArray).joined(separator: "\n")
 }
