@@ -46,11 +46,30 @@ let originalVersionPartOne = ["I met a traveller from an antique land",
 "\"My name is Ozymandias, king of kings:",
 "Look on my works, ye Mighty, and despair!\""]
 
-let originalVersionPartTwo = [
-"Nothing beside remains. Round the decay",
+let originalVersionPartTwo = ["Nothing beside remains. Round the decay",
 "Of that colossal wreck, boundless and bare",
 "The lone and level sands stretch far away."]
 
 var fullPoem = appendTextLines(originalVersionPartTwo, to: originalVersionPartOne)
+
+print(fullPoem + "\n")
+
+let horaceSmithVersionPartOne = ["In Egypt's sandy silence, all alone,",
+"Stands a gigantic Leg, which far off throws",
+"The only shadow that the Desert knows:—",
+"\"I am great OZYMANDIAS,\" saith the stone,",
+"\"The King of Kings; this mighty City shows",
+"The wonders of my hand.\"— The City's gone,—",
+"Naught but the Leg remaining to disclose",
+"The site of this forgotten Babylon."]
+
+let horaceSmithVersionPartTwo = ["We wonder,—and some Hunter may express",
+"Wonder like ours, when thro' the wilderness",
+"Where London stood, holding the Wolf in chace,",
+"He meets some fragment huge, and stops to guess",
+"What powerful but unrecorded race",
+"Once dwelt in that annihilated place."]
+
+fullPoem = appendTextLines(horaceSmithVersionPartTwo, to: horaceSmithVersionPartOne)
 
 print(fullPoem)
