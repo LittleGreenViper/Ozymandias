@@ -38,3 +38,14 @@ for value in currentValuesIntegerArray {
 }
 
 let newIntegerArray: [Int] = workingArray
+
+// The current index table of lines.
+var textLineIndexes = [1, 2, 3, 4, 5]
+
+// The number of lines we will be inserting into the text.
+let insertLineCount = 5
+
+// We use the Array.map() function to add the offset, as it's the most effective Swift procedure.
+let addOffsetFunction = {(currentValue) in
+    return currentValue + insertLineCount
+}
