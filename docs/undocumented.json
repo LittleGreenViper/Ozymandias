@@ -1,0 +1,40 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/chrismarshall/Desktop/Ozymandias/Ozymandias/main.swift",
+      "line": 39,
+      "symbol": "originalVersionPartOne",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chrismarshall/Desktop/Ozymandias/Ozymandias/main.swift",
+      "line": 51,
+      "symbol": "originalVersionPartTwo",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chrismarshall/Desktop/Ozymandias/Ozymandias/main.swift",
+      "line": 55,
+      "symbol": "fullPoem",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chrismarshall/Desktop/Ozymandias/Ozymandias/main.swift",
+      "line": 61,
+      "symbol": "horaceSmithVersionPartOne",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/chrismarshall/Desktop/Ozymandias/Ozymandias/main.swift",
+      "line": 70,
+      "symbol": "horaceSmithVersionPartTwo",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/chrismarshall/Desktop/Ozymandias"
+}
