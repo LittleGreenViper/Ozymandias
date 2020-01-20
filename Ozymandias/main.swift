@@ -36,6 +36,7 @@ func appendTextLines(_ inNewTextLineArray: [String], to: [String]) -> String {
 
 // MARK: - Shelley Version
 
+/// This is the first part of Ozymandias, by Percy Blythe Shelley
 let originalVersionPartOne = ["I met a traveller from an antique land",
 "Who said: Two vast and trunkless legs of stone",
 "Stand in the desert. Near them, on the sand,",
@@ -48,16 +49,19 @@ let originalVersionPartOne = ["I met a traveller from an antique land",
 "\"My name is Ozymandias, king of kings:",
 "Look on my works, ye Mighty, and despair!\""]
 
+/// This is the last part of Ozymandias, by Percy Blythe Shelley
 let originalVersionPartTwo = ["Nothing beside remains. Round the decay",
 "Of that colossal wreck, boundless and bare",
 "The lone and level sands stretch far away."]
 
+/// This is a String that we use to consolidate the poem before printing.
 var fullPoem = appendTextLines(originalVersionPartTwo, to: originalVersionPartOne)
 
 print(fullPoem + "\n")
 
 // MARK: - Smith Version
 
+/// This is the first part of Ozymandias, by Horace Smith
 let horaceSmithVersionPartOne = ["In Egypt's sandy silence, all alone,",
 "Stands a gigantic Leg, which far off throws",
 "The only shadow that the Desert knows:—",
@@ -67,6 +71,7 @@ let horaceSmithVersionPartOne = ["In Egypt's sandy silence, all alone,",
 "Naught but the Leg remaining to disclose",
 "The site of this forgotten Babylon."]
 
+/// This is the last part of Ozymandias, by Horace Smith
 let horaceSmithVersionPartTwo = ["We wonder,—and some Hunter may express",
 "Wonder like ours, when thro' the wilderness",
 "Where London stood, holding the Wolf in chace,",
