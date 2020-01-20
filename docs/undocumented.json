@@ -1,6 +1,12 @@
 {
   "warnings": [
-
+    {
+      "file": "/Users/chrismarshall/Desktop/Ozymandias/Ozymandias/main.swift",
+      "line": 57,
+      "symbol": "fullPoem",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    }
   ],
   "source_directory": "/Users/chrismarshall/Desktop/Ozymandias"
 }
