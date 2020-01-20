@@ -49,3 +49,5 @@ let insertLineCount = 5
 let addOffsetFunction = {(currentValue) in
     return currentValue + insertLineCount
 }
+
+textLineIndexes = textLineIndexes.map(addOffsetFunction)
