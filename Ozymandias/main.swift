@@ -24,8 +24,9 @@ The Great Rift Valley Software Company: https://riftvalleysoftware.com
 /**
  This function will append one Array of String to another, returning a simple, joined String.
  
- - parameter inNewTextLineArray: The Array of String that will be appended to the end of the Array.
- - parameter to: The Array of String that will precede the previous Array.
+ - parameters:
+    - inNewTextLineArray: The Array of String that will be appended to the end of the Array.
+    - to: The Array of String that will precede the previous Array.
  
  - returns: The entire composite Array as a single String, joined by linefeeds.
  */
