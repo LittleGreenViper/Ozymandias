@@ -34,7 +34,7 @@ func appendTextLines(_ inNewTextLineArray: [String], to: [String]) -> String {
     return  (to + inNewTextLineArray).joined(separator: "\n")
 }
 
-// MARK: Shelley Version
+// MARK: - Shelley Version
 
 let originalVersionPartOne = ["I met a traveller from an antique land",
 "Who said: Two vast and trunkless legs of stone",
@@ -56,7 +56,7 @@ var fullPoem = appendTextLines(originalVersionPartTwo, to: originalVersionPartOn
 
 print(fullPoem + "\n")
 
-// MARK: Smith Version
+// MARK: - Smith Version
 
 let horaceSmithVersionPartOne = ["In Egypt's sandy silence, all alone,",
 "Stands a gigantic Leg, which far off throws",
