@@ -20,45 +20,12 @@ CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFT
 The Great Rift Valley Software Company: https://riftvalleysoftware.com
 */
 
-let ofst = 5
-
-let incArInt = [1, 2, 3, 4, 5].map { $0 + ofst }
-
-let valAr = incArInt
-
-let integerOffset: Int = 5
-
-let currentValuesIntegerArray: [Int] = [1, 2, 3, 4, 5]
-
-var workingArray: [Int] = []
-
-for value in currentValuesIntegerArray {
-    let tempValue: Int = value + integerOffset
-    workingArray.append(tempValue)
-}
-
-let newIntegerArray: [Int] = workingArray
-
-// The current index table of lines.
-var textLineIndexes = [1, 2, 3, 4, 5]
-
-// The number of lines we will be inserting into the text.
-let insertLineCount = 5
-
-// We use the Array.map() function to add the offset, as it's the most effective Swift procedure.
-let addOffsetFunction = {(currentValue) in
-    return currentValue + insertLineCount
-}
-
-textLineIndexes = textLineIndexes.map(addOffsetFunction)
-
-// We use the Array.map() function to add the offset, as it's the most effective Swift procedure.
-textLineIndexes = textLineIndexes.map { $0 + insertLineCount }
-
 /* #################################################### */
 /**
  This function will append one Array of String to another, then
  will return the entire composite Array as a single String, joined by linefeeds.
+ - parameter inNewTextLineArray: The Array of String that will be appended to the end of the Array.
+ - parameter to: The Array of String that will precede the previous Array.
  */
 func appendTextLines(_ inNewTextLineArray: [String], to: [String]) -> String {
     return  (to + inNewTextLineArray).joined(separator: "\n")
