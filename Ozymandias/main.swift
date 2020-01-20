@@ -55,7 +55,7 @@ let originalVersionPartTwo = ["Nothing beside remains. Round the decay",
 "The lone and level sands stretch far away."]
 
 /// This is a String that we use to consolidate the poem before printing.
-var fullPoem = appendTextLines(originalVersionPartTwo, to: originalVersionPartOne)
+private var fullPoem = appendTextLines(originalVersionPartTwo, to: originalVersionPartOne)
 
 print(fullPoem + "\n")
 
