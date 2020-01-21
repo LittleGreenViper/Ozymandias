@@ -36,7 +36,7 @@ func appendTextLines(_ inNewTextLineArray: [String], to: [String]) -> String {
 
 // MARK: - Shelley Version
 
-/// This is the first part of Ozymandias, by Percy Blythe Shelley
+/// This is the first part of Ozymandias, by Percy Bysshe Shelley
 let originalVersionPartOne = ["I met a traveller from an antique land",
 "Who said: Two vast and trunkless legs of stone",
 "Stand in the desert. Near them, on the sand,",
@@ -49,7 +49,7 @@ let originalVersionPartOne = ["I met a traveller from an antique land",
 "\"My name is Ozymandias, king of kings:",
 "Look on my works, ye Mighty, and despair!\""]
 
-/// This is the last part of Ozymandias, by Percy Blythe Shelley
+/// This is the last part of Ozymandias, by Percy Bysshe Shelley
 let originalVersionPartTwo = ["Nothing beside remains. Round the decay",
 "Of that colossal wreck, boundless and bare",
 "The lone and level sands stretch far away."]
