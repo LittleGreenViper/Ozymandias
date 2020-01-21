@@ -1,5 +1,8 @@
-![Egyptian Bust](icon.png)
+![Egyptian Bust](https://github.com/LittleGreenViper/Ozymandias/raw/master/icon.png)
 # OZYMANDIAS
+
+This is a sample repo that accompanies the [Leaving A Legacy](https://littlegreenviper.com/miscellany/leaving-a-legacy/) essay.
+-
 
 I met a traveller from an antique land
 
