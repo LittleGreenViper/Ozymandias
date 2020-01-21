@@ -1,0 +1,9 @@
+title: Ozymandias
+module: Ozymandias
+min_acl: internal
+author: ChrisMarshallNY
+author_url: https://github.com/ChrisMarshallNY
+github_url: https://github.com/LittleGreenViper/Ozymandias
+hide_documentation_coverage: true
+sdk: macosx
+theme: fullwidth
