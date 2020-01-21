@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		D40CBDB123D5EBD300898761 /* Ozymandias */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ozymandias; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40CBDB423D5EBD300898761 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D429F29423D72B8300440A60 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		D40CBDA823D5EBD300898761 = {
 			isa = PBXGroup;
 			children = (
+				D429F29423D72B8300440A60 /* README.md */,
 				D40CBDB323D5EBD300898761 /* Ozymandias */,
 				D40CBDB223D5EBD300898761 /* Products */,
 			);
